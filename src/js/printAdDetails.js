@@ -1,6 +1,6 @@
 import {googleTagReady} from "./helpers/checkIfGoogleTagReady";
 
-function printAdDetails(string) {
+function printAdDetails() {
     if (!googleTagReady(true)) {
         return
     }
